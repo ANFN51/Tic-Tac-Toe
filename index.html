@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <p id="status">Game on! It is X's turn.</p>
+  
+  <table id="game-board">
+    <tr>
+      <td data-cell></td>
+      <td data-cell></td>
+      <td data-cell></td>
+    </tr>
+    <tr>
+      <td data-cell></td>
+      <td data-cell></td>
+      <td data-cell></td>
+    </tr>
+    <tr>
+      <td data-cell></td>
+      <td data-cell></td>
+      <td data-cell></td>
+    </tr>
+  </table>
+
+  <button id="start-restart">Start/Restart</button>
+  <button id="play-again" disabled>Play Again?</button>
+  <div>
+    <label><input type="radio" name="mode" value="pvp" checked> Player vs Player</label>
+    <label><input type="radio" name="mode" value="pvc"> Player vs Computer</label>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
