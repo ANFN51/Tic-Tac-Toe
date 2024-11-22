@@ -98,7 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateStatus();
   }
 
-  // Check for a win
   function checkWin() {
     const winPatterns = [
       [0, 1, 2], [3, 4, 5], [6, 7, 8], 
